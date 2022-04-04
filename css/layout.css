@@ -1,0 +1,79 @@
+.layout-perfil {
+  position: relative;
+  padding: 40px 30px;
+  margin: 25px;
+
+  border-radius: 15px;
+
+  background-color: var(--bg-cards);
+}
+
+.layout-menu-complemento {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+
+  background-color: var(--bg-cards);
+  opacity: 0.9;
+}
+
+.layout-menu-tecnologias {
+  width: 230px;
+  height: auto;
+
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+
+  background-color: var(--bg-cards);
+  opacity: 0.9;
+}
+
+.layout-menu-experiencias {
+  width: 230px;
+  height: auto;
+
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+
+  background-color: var(--bg-cards);
+}
+
+.layout-menu-educacao {
+  width: 230px;
+  height: auto;
+
+  padding: 10px;
+  margin: 10px;
+  border-radius: 15px;
+
+  background-color: var(--bg-cards);
+}
+
+.layout-meus-projetos {
+  padding: 25px 30px;
+  margin: 25px;
+
+  border-radius: 15px;
+
+  background-color: var(--bg-cards);
+}
+
+.layout-post-recente {
+  padding: 25px 30px;
+  margin: 25px;
+
+  border-radius: 15px;
+
+  background-color: var(--bg-cards);
+}
+
+.layout-posts {
+  padding: 25px 30px;
+  margin: 25px;
+
+  border-radius: 15px;
+
+  background-color: var(--bg-cards);
+}

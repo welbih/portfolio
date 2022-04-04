@@ -1,0 +1,266 @@
+/****************\
+  PERFIL
+\****************/
+.perfil {
+  font-size: 1.6rem;  
+
+  background-color: var(--bg-cards);
+}
+
+.perfil__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.perfil__imagem--destaque {
+  border: 2px solid #00FF00;
+}
+
+.perfil__imagem {
+  border-radius: 50%;
+}
+
+.perfil__nome {
+  padding-top: 20px;
+
+  font-weight: 600;
+  letter-spacing: 0.0625em;  
+}
+
+.perfil__descricao {
+  padding-top: 10px;
+
+  font-size: 1em;
+  letter-spacing: 0.0625em;
+}
+
+/****************\
+  BOTAO-CHAVEADOR
+\****************/
+.botao-chaveador {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+
+  width: 24px;
+  height: 24px;
+
+  border: 0;
+  border-radius: 10%;
+
+  background: #00FF00;
+
+  background-image: url("../assets/bars.png");
+  cursor: pointer;
+}
+
+/****************\
+  MENU
+\****************/
+.menu {
+  overflow: scroll;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+
+  width: 250px;
+  margin: 0;
+  font-size: 1.4rem;
+
+  border-right: 0.5px solid #00FF00; 
+
+  background-color: rgba(0, 0, 0, 0.8);
+  display: none;
+}
+
+.menu--exibindo {
+  display: block;
+}
+
+/****************\
+  COMPLEMENTO
+\****************/
+.complemento__item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  
+  list-style: none;
+  line-height: 2;
+}
+
+.complemento__item > img {
+  color: var(--text-color);
+}
+
+.complemento__item > a {
+  font-family: "Merriweather Sans", sans-serif;
+  color: var(--text-color);
+
+  text-decoration: none;
+}
+
+/****************\
+  TECNOLOGIAS
+\****************/
+.tecnologias {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tecnologia__titulo {
+  font-size: 2.0rem;
+  margin-bottom: 15px;
+}
+
+.tecnologia__item {
+  list-style: none;
+
+}
+
+.tecnologia__item{
+  padding: 5px; 
+  border-radius: 20px;
+  width: 60px;
+  
+  
+  background-color: var(--bg-techs);
+  
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 500;
+
+  color: #000;
+  font-size: 1rem;
+}
+
+/****************\
+  Experiẽncias
+\****************/
+.experiencias {
+  padding-left: 30px;
+  margin-top: 15px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.experiencia__titulo {
+  font-size: 2.0rem;
+}
+
+.experiencia__item {
+  font-weight: 700;
+}
+
+.experiencia__item > p{
+  font-weight: 400;
+}
+
+/****************\
+  Educação
+\****************/
+.educacao {
+  padding-left: 30px;
+  margin-top: 15px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.educacao__titulo {
+  font-size: 2.0rem;
+}
+
+.educacao__item {
+  font-weight: 700;
+}
+
+.educacao__item > p{
+  font-weight: 400;
+}
+
+/****************\
+  MEUS PROJETOS
+\****************/
+.meus-projetos {
+  display: flex;  
+  justify-content: space-between;
+  align-items: center;
+}
+
+.meus-projetos__titulo {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+.meus-projetos__link {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text-color);
+
+  text-decoration: none;
+}
+
+/****************\
+  MEUS POSTS
+\****************/
+.meus-projetos {
+
+}
+
+.meus-posts__titulo {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 1.4rem;
+}
+
+.meus-projetos__link {
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 400;
+  color: var(--text-color);
+
+  text-decoration: none;
+}
+
+/****************\
+  POSTS
+\****************/
+.post__container__titulo {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.post__container__descricao {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+.post__container__descricao > p {
+  font-size: 1.2rem;
+}
+
+.post__imagem {
+  border-radius: 50%;
+}
+
+.post__descricao {
+  
+}
+
+.post__container__descricao__label {  
+  display: flex;
+  margin-top: 8px;
+  gap: 10px;
+}
+
+.post__container__descricao__label > span {
+  
+}
