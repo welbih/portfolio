@@ -43,36 +43,50 @@
   top: 15px;
   right: 15px;
 
-
-  width: 24px;
-  height: 24px;
+  width: 30px;
+  height: 30px;
 
   border: 0;
   border-radius: 10%;
 
-  background: #00FF00;
+  background: none;
 
-  background-image: url("../assets/bars.png");
+  background-image: url("../assets/menu-hamburger.png");  
+
   cursor: pointer;
+}
+
+.botao-chaveador--fechar {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+
+  border: 0;
+
+  width: 32px;
+  height: 32px;
+
+  background: none;
+
+  background-image: url("../assets/x-menu.png");  
+
+  cursor: pointer;
+  z-index: 10;
 }
 
 /****************\
   MENU
 \****************/
 .menu {
-  overflow: scroll;
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
-  bottom: 0;
 
-  width: 250px;
-  margin: 0;
+  width: 100%;
+  
   font-size: 1.4rem;
 
-  border-right: 0.5px solid #00FF00; 
-
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: var(--body-bg-color);
   display: none;
 }
 

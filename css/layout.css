@@ -9,8 +9,9 @@
 }
 
 .layout-menu-complemento {
+  width: 100%;
   padding: 10px;
-  margin: 10px;
+  margin: 1px auto;
   border-radius: 15px;
 
   background-color: var(--bg-cards);
@@ -18,11 +19,12 @@
 }
 
 .layout-menu-tecnologias {
-  width: 230px;
+  width: 100%;
+  padding: 10px;
+  margin: 10px auto;
+
   height: auto;
 
-  padding: 10px;
-  margin: 10px;
   border-radius: 15px;
 
   background-color: var(--bg-cards);
@@ -30,22 +32,21 @@
 }
 
 .layout-menu-experiencias {
-  width: 230px;
-  height: auto;
+  width: 100%;
 
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
   border-radius: 15px;
 
   background-color: var(--bg-cards);
 }
 
 .layout-menu-educacao {
-  width: 230px;
+  width: 100%;
   height: auto;
 
   padding: 10px;
-  margin: 10px;
+  margin: 10px auto;
   border-radius: 15px;
 
   background-color: var(--bg-cards);
